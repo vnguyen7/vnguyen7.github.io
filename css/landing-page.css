@@ -119,6 +119,12 @@ h6 {
     background: url(../img/banner-bg.jpg) top-left;
     background-repeat: repeat-x; 
     background-size: cover;
+    height:100%
+    width: 4800px;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    top: 0;
 }
 
 .banner h2 {
