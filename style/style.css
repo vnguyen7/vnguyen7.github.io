@@ -1,0 +1,92 @@
+body {
+
+	font-family: "PT Sans", "Helveltica Neue",Helvetica,Arial,sans-serif; 
+	background: url('../img/home.jpg') center fixed;
+	background-size: cover; 
+}
+
+
+
+.container-fluid {
+	padding-right: 30px;
+	padding-left: 20px;
+	background-color: rgba(255,242,242,0.7);
+}
+
+.navbar-header {
+	border-bottom: solid 1px #c0c0c0; 
+}
+/* space betw nav and the picture */ 
+.navbar {
+	margin-bottom: 5px; 
+	background: transparent;
+}
+
+
+/*color of text under carousel */ 
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+/* Nav bar in the center */
+.navbar-nav {
+	display: table;
+	float: none;
+	margin: auto;
+	table-layout: fixed;
+	font-size: 20px;
+	font-color: #000;
+}
+
+/* hr divider under nav bar */ 
+.divider {
+	max-width: 400px; 
+	border-color: #999999;
+}
+
+.list-inline {
+	text-align: center; 
+	margin-top: 30px; 
+	font-family: Open Sans, Arial, serif;
+	border-color: transparent;
+}
+
+/* Margin, padding, and background color for row  */ 
+.row {
+	margin-bottom: 10px;
+	padding:30px 15px;
+	background-color: rgba(255,242,242,0.7);
+	margin-right: 20px;
+	margin-left: 20px; 
+}
+
+/* round corner for about me picture */ 
+.about-me {
+	border-radius: 30px;
+	margin-right: 10px;
+}
+
+/*font size for about me title */ 
+#title-aboutme {
+	font-size: 60px;
+	font-family: Kalam,Arial,serif; 
+}
+
+/* Hello intro text */ 
+.intro-text {
+	font-size: 0.875em;
+	font-family: "Droid Sans", Arial,serif; 
+	color: #777;
+}
+
+.content {
+	font-size: 1.25em;
+	line-height: 1.5;
+	color: #1b235c;
+}
+
+.intro-divider {
+	max-width: 400px;
+	color: #364ad5; 
+	margin-top: 10px;
+}
